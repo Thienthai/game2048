@@ -25,18 +25,18 @@ import java.util.List;
  * @author Konstantin Bulenkov
  */
 public class Game2048 extends JPanel {
-  private static final Color BG_COLOR = new Color(0xbbada0);
-  private static final String FONT_NAME = "Arial";
-  private static final int TILE_SIZE = 64;
-  private static final int TILES_MARGIN = 16;
+    public static final Color BG_COLOR = new Color(0xbbada0);
+    private static final String FONT_NAME = "Arial";
+    private static final int TILE_SIZE = 64;
+    private static final int TILES_MARGIN = 16;
 
-  private Tile[] myTiles;
-  boolean myWin = false;
-  boolean myLose = false;
-  int myScore = 0;
+    private Tile[] myTiles;
+    boolean myWin = false;
+    boolean myLose = false;
+    int myScore = 0;
 
-  public Game2048() {
-    setPreferredSize(new Dimension(340, 400));
+    public Game2048() {
+        setPreferredSize(new Dimension(340, 400));
     setFocusable(true);
     addKeyListener(new KeyAdapter() {
       @Override

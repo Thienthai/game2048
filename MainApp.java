@@ -25,6 +25,5 @@ public class MainApp {
 //        Tile tiles = new Tile(4);
 //        Color result = tiles.getBackground();
 //        System.out.println(result);
-
     }
 }
