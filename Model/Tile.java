@@ -6,7 +6,7 @@ import java.awt.*;
  * Created by praewpatjiradecha on 9/14/2017 AD.
  */
 public class Tile {
-    int value;
+    public int value;
 
     public Tile() {
         this(0);
