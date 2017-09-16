@@ -16,6 +16,7 @@ import static Logic.Constants.myWin;
  * TODO ดู method ให้หน่อยว่าเอา method มาครบรึเปล่า
  * TODO เหลือ ฟังก์ชัน paint ที่พ่วง method drawTile ยังไม่ได้ดูน่าจะต้องแยกไปอีก class
  * TODO อันนี้ลองแยก ตาม package ให้เฉยๆเปลี่ยนแปลงได้ตามต้องการ
+ * //
  */
 public class Move extends JPanel {
     private Tile[] myTiles;
